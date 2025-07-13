@@ -16,6 +16,10 @@ public class Main {
         return a / b;
     }
 
+    public static int func1() {
+        return -1;
+    }
+
     public static int func2() {
         return -1;
     }
