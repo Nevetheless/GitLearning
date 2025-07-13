@@ -4,8 +4,8 @@ public class Main {
         return a + b;
     }
 
-    public static int sub(int a, int b) {
-        return a - b;
+    public static int mul(int a, int b) {
+        return a * b;
     }
 
     public static void main(String[] args) {
@@ -14,6 +14,6 @@ public class Main {
         System.out.printf("Hello and welcome!");
 
         System.out.println("v1.0, test add 2 int, add(1, 3) == " + add(1, 3));
-        System.out.println("v1.0, test sub 2 int, sub(1, 3) == " + sub(1, 3));
+        System.out.println("v1.0, test mul 2 int, mul(1, 3) == " + mul(1, 3));
     }
 }
